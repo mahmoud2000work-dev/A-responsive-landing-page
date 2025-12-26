@@ -1,0 +1,161 @@
+/* @media (min-wdith : 600px) {Smallscreen} */
+/* @media (min-wdith : 768px) {medium screen} */
+/* @media (min-wdith : 992px) {larg screen} */
+/* @media (min-wdith : 1200px) {extar larg screen} */
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: green;
+}
+
+.carousel , .carousel-inner{
+    height: 600px;
+    
+}
+.header{
+    position: relative;
+}
+.start{
+    position: absolute;
+    z-index: 3;
+    top: 45%;
+    left: 40%;
+    color: white;
+}
+
+.carousel-control-prev , .carousel-control-next{
+    position: absolute;
+    z-index: 3;
+}
+
+.overlay{
+    position: absolute;
+   width: 100%; 
+  height: 100%; 
+  top: 0;left: 0;right: 0; bottom: 0;
+  background-color: rgba(0,0,0,.5);
+  z-index:2;
+}
+/* ***********About section**************** */
+.about{
+ background-color: rgb(228, 222, 222);
+ text-align: center;
+}
+.about h2{
+ padding-top: 30px;
+}
+.about p{
+    padding: 20px 10px;
+    font-size: 22px;
+}
+.about button{
+    padding: 10px 80px;
+    margin-bottom: 20px;
+}
+.services .look{
+    text-align: center;
+    margin: 40px;
+}
+.card{
+    text-align: center;
+} 
+/* *******************clients*********************** */
+
+.client{
+    margin-top: 20px;
+    padding-top: 50px;
+    background: url(..//img/car7.jpg) center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.client .slide , .client .carousel-inner{
+    height: 400px;
+}
+
+.client .carousel-item{
+    position: absolute;
+    font-size: 23px;
+    top: 20%;
+    background-color: rgba(0,0,0,.5);
+    padding: 40px 20px;
+    border-radius: 50px;
+
+}
+.client h2{
+    color: white;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* background-color: rgb(255, 124, 24); */
+
+}
+.client .carousel-indicators li.active{
+        background-color: rgb(255, 124, 24);
+
+}
+
+/* ****************statistis******************** */
+.statistis , .cardC{
+    background-color: brown;
+    color: white;
+    border: none !important;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.card i{
+    font-size: 50px;
+}
+.statistis .card{
+    padding: 5px !important;
+}
+.our{
+    text-align: center;
+    padding: 30px 2px;
+    color: white;
+
+}
+
+
+/* **************Get In************ */
+.getIn{
+    background-color: rgb(228, 222, 222);
+}
+.getIn .our{
+    color: black;
+}
+
+/* ************brand************ */
+.brand{
+    height: 250px;
+    background-color: rgb(39, 34, 34);
+}
+.brand h3{
+    padding-top: 40px;
+    color: white;
+}
+.brand ul{
+    color: brown;
+}
+.brand a{
+    color: white;
+}
+.brand p {
+    color: white;
+}
+/* ********footer************* */
+.foot{
+    background-color: rgb(228, 222, 222);
+}
+.foot i {
+ padding: 20px  30px;
+ color: brown;
+ font-size: 18px;
+}
+
+.hvr-radial-out:before{
+    z-index: 1 !important;
+    background: #2098d157 !important;
+}

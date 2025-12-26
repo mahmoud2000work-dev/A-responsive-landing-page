@@ -1,0 +1,55 @@
+/* @media (min-wdith : 600px) {Smallscreen} */
+/* @media (min-wdith : 768px) {medium screen} */
+/* @media (min-wdith : 992px) {larg screen} */
+/* @media (min-wdith : 1200px) {extar larg screen} */
+
+@media (max-width : 768px) {
+  header .overlay{
+        height: 100% !important; 
+    }
+    
+  header .start{
+        top: 35%;
+        left: 26%;
+        font-size: 20px;
+    }
+    .carousel , .carousel-inner{
+        height: 276px !important;
+        
+    }
+
+    .carousel-control-prev , .carousel-control-next{
+        position: absolute;
+        bottom: 23%;
+    }
+    .card{
+        margin-left: 12%;
+    }
+    .client h2{
+        font-size: 24px;
+    }
+    .client p{
+        font-size: 18px;
+    }
+    .carousel-indicators li{
+        top: 27px;
+    }
+    .client .carousel-item{
+        top: 1% !important;
+
+    }
+
+    .statistis p{
+        font-size: 15px !important;
+    }
+
+    .brand{
+        height: 400px !important;
+    }
+
+    .foot i{
+        padding: 20px  8px !important;
+
+    }
+
+}
